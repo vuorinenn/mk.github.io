@@ -44,6 +44,24 @@ body {
   height: auto;
 }
 
+.map-container {
+  float: right;
+  width: 350px;
+  height: 250px;
+  margin: 30px;
+  border: 2px solid #c96c19;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 .socials {
   display: flex;
   justify-content: flex-end;
@@ -64,26 +82,6 @@ body {
   border: 2px solid #ce5504;
   border-radius: 8px;
   padding: 4px;
-}
-
-.osoite {
-  border: 2px solid #ce5504;
-  border-radius: 12px;
-  padding: 12px 20px;
-  max-width: 400px;
-  margin: 20px auto;
-  background-color: #fdfdfd;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-left: auto;
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-.osoite p {
-  font-size: 20px;
-  line-height: 1.4;
-  text-align: center;
-  margin: 0;
 }
 
 .hero {
