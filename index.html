@@ -9,44 +9,45 @@
 </head>
 <body>
 
-  <div class="socials">
-  <p>Yhteydenotto ja somet:</p>
-  <a href="mailto:info@mk.fi">
-    <img src="mail.png" alt="Sähköposti">
-  </a>
-  <a href="https://instagram.com/" target="_blank">
-    <img src="instagram.jpg" alt="Instagram">
-  </a>
-  <a href="https://facebook.com/" target="_blank">
-    <img src="facebook.jpg" alt="Facebook">
-  </a>
-  <a href="https://x.com/" target="_blank">
-    <img src="x.jpg" alt="X">
-  </a>
-</div>
+  <nav class="socials" aria-label="Yhteystiedot ja sosiaalinen media">
+    <p>Yhteydenotto ja somet:</p>
+    <a href="mailto:info@mk.fi">
+      <img src="mail.png" alt="Sähköposti">
+    </a>
+    <a href="https://instagram.com/" target="_blank">
+      <img src="instagram.jpg" alt="Instagram">
+    </a>
+    <a href="https://facebook.com/" target="_blank">
+      <img src="facebook.jpg" alt="Facebook">
+    </a>
+    <a href="https://x.com/" target="_blank">
+      <img src="x.jpg" alt="X (Twitter)">
+    </a>
+  </nav>
 
   <div class="logo-container">
-    <img src="mklogo.jpg" alt="MK Kamppailusalin logo" class="logo">
+    <img src="mklogo.jpg" alt="MK logo" class="logo">
   </div>
 
-  <header class="header">
-  <nav class="nav">
-    <a href="index.html">Tervetuloa MK:lle!</a>
-    <a href="hinnasto.html">Hinnasto</a>
-    <a href="treenikalenteri.html">Treenikalenteri</a>
-  </nav>
-</header>
+  <header class="header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Päävalikko">
+      <a href="index.html">Tervetuloa MK:lle!</a>
+      <a href="hinnasto.html">Hinnasto</a>
+      <a href="treenikalenteri.html">Treenikalenteri</a>
+    </nav>
+  </header>
 
-<div class="map-container">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7568325291647!2d24.92577385064653!3d60.1682043541785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a34f866a189%3A0xbeda9d950e5ffec9!2sMalminkatu%203%2C%2000100%20Helsinki!5e0!3m2!1sfi!2sfi!4v1759818833599!5m2!1sfi!2sfi"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
+  <div class="map-container" role="region" aria-label="Sijaintimme kartalla">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7568325291647!2d24.92577385064653!3d60.1682043541785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a34f866a189%3A0xbeda9d950e5ffec9!2sMalminkatu%203%2C%2000100%20Helsinki!5e0!3m2!1sfi!2sfi!4v1759818833599!5m2!1sfi!2sfi"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="MK:n sijainti kartalla">
+    </iframe>
+  </div>
 
-  <section class="hero">
+  <section class="hero" role="region" aria-label="Tietoa meistä">
     <h1>Keitä olemme?</h1>
     <p>
       Olemme Helsingin uusin kamppailukeskus. Meillä on 300 neliömetriä tilaa harjoitella sekä korkeatasoiset valmennukset. 
@@ -54,11 +55,11 @@
     </p>
   </section>
 
-  <section class="lajimme">
+  <section class="lajimme" role="region" aria-label="Tarjoamamme lajit">
     <h2>LAJIMME</h2>
   </section>
 
-  <div class="lajit">
+  <section class="lajit" role="region" aria-label="Lajikuvakkeet">
     <div class="icons">
       <div class="icon">
         <p>Nyrkkeily</p>
@@ -74,10 +75,10 @@
       </div>
       <div class="icon">
         <p>BJJ</p>
-        <img src="bjj.jpg" alt="BJJ">
+        <img src="bjj.jpg" alt="BJJ (Brazilian Jiu-Jitsu)">
       </div>
     </div>
-  </div>
+  </section>
 
 </body>
 </html>
